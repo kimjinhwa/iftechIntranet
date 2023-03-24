@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "delay": "250ms",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,pug",
+  "verbose": true
+}
+

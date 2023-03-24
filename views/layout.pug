@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    block scripts
+      //- script(src='/javascripts/index.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar
+      ul.navbar_menu
+        li 
+          a(href="#")#htmlMain 기본정보
+        li 
+          a(href="#")#Setting 설정
+        li 
+          a(href="#")#Logout Logout
+        li 
+          a(href="#")#Help Help 
+    block content

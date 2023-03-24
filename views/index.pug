@@ -1,0 +1,15 @@
+extends layout
+
+block scripts
+  script(defer src='/javascripts/index.js')
+  
+block content
+  h1= title 
+  script(type='text/javascript').
+    var requestYears = #{RequestYears}
+  p 프로젝트 관리 #{RequestYears}년 
+  a(href='/?years=2022') 2022년 프로젝트 
+  a(href='/?years=2023') 2023년 프로젝트 
+  div#file-list
+
+  
